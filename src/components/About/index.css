@@ -1,0 +1,32 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+.about-img {
+  width: 200px;
+}
+.about-heading {
+  font-weight: 600;
+  color: #6d396b;
+  font-size: 24px;
+  margin-top: 10px;
+}
+.about-paragraph {
+  font-size: 22px;
+  text-align: center;
+  color: #555555;
+}
+@media only screen and (max-width: 500px) {
+  .about-img {
+    width: 100px;
+  }
+  .about-heading {
+    font-size: 18px;
+  }
+  .about-paragraph {
+    font-size: 18px;
+  }
+}

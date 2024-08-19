@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.user-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin-bottom: 20px;
+}
+.user-info-img {
+  width: 100px;
+  margin-bottom: 15px;
+}
+.user-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #12022f;
+}
+.user-description {
+  color:  #616e7c;
+  font-size: 16px;
+  font-weight: 600;
+}

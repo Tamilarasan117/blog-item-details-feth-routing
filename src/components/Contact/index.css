@@ -1,0 +1,24 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+.contact-img {
+  width: 200px;
+}
+.contact-heading {
+  font-weight: 600;
+  font-size: 24px;
+  color: #6d396b;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 500px) {
+  .contact-img {
+    width: 100px;
+  }
+  .contact-heading {
+    font-size: 18px;
+  }
+}
